@@ -31,7 +31,7 @@ public class realizaExamenDao {
             ResultSet rs = ps.executeQuery(String.valueOf(idAlumno));
 
             while(rs.next()) {
-                Path = rs.getInt("idExamen");
+                String Path = rs.getString("idExamen");
             }
 
         } catch (SQLException e) {
@@ -49,7 +49,7 @@ public class realizaExamenDao {
             ResultSet rs = ps.executeQuery(String.valueOf(idExamen));
 
             while(rs.next()) {
-                Path = rs.getInt("idAlumno");
+                String Path = rs.getString("idAlumno");
             }
 
         } catch (SQLException e) {

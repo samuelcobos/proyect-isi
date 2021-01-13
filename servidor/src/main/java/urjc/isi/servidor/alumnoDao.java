@@ -40,7 +40,7 @@ public class alumnoDao {
                 String nombre = rs.getString("nombre");
                 int puerto = rs.getInt("puerto");
                 String ip = rs.getString("ip");
-                allAlumnos.add(new alumno(idAlumno, nombre, puerto, ip));
+                allAlumnos.add(new alumno(nombre, puerto, ip));
             }
 
         } catch (SQLException e) {
