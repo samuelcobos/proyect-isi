@@ -3,7 +3,7 @@ package urjc.isi.servidor;
 import static spark.Spark.*;
 //import spark.Request;
 //import spark.Response;
-import urjc.isi.servidor.App;
+import urjc.isi.servidor.Main;
 
 //import java.sql.Connection;
 //import java.sql.DriverManager;
@@ -21,7 +21,7 @@ import java.util.Random;
 //import java.io.InputStreamReader;
 //import urjc.isi.servidor.base_datos;
 
-public class App 
+public class Main 
 {
 	static String cosa = null;
 
