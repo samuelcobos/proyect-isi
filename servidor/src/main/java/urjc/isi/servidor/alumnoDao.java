@@ -68,7 +68,7 @@ public class alumnoDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-        	String[] alumno = {String.valueOf(idAlumno),nombre ,String.valueOf(puerto), ip};
+        	String[] alumno = {String.valueOf(idAlumno) ,String.valueOf(puerto), ip};
             return alumno;
         }
     }
