@@ -63,7 +63,7 @@ public class realizaExamenDao {
         try {
             PreparedStatement ps = c.prepareStatement("insert into RealizaExamen(idExamen, idAlumno) VALUES(?,?)");
             ps.setInt(1, realizaExamen.getIdExamen());
-            ps.setString(2, realizaExamen.getIdAlumno());
+            ps.setInt(2, realizaExamen.getIdAlumno());
             ps.execute();
 
             c.commit();
